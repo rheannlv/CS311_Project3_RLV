@@ -155,7 +155,7 @@ namespace CS311_Project3_RLV
             rtfOrderSummary.SelectionBullet = false;
 
             
-
+            // Calculations for subTotal, Tax, price, and Total
             price += subTotal;
             tax *= price;
             total = price + tax;
